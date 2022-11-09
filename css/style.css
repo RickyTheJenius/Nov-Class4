@@ -162,4 +162,64 @@ a {
       font-weight: 500;
    }
    /* FEATURES SECTION END */
+
+   .about {
+      padding: 5%;
+      row-gap: 5vh;
+   }
+
+   .about > article {
+      display: flex;
+      column-gap: 1vh;
+      align-items: center;
+   }
+
+
+   .about aside {
+      display: flex;
+      width: 29%;
+      border: 2px solid var(--defaultGray);
+      height: 1vh;
+      background-color: var(--defaultGray);
+   }
+
+   .about section {
+      display: flex;
+      flex-direction: column;
+      row-gap: 3vh;
+   }
+
+   .about section article {
+      row-gap:2vh;
+   }
+   
+   .about p {
+      color:var(--lightBlack2);
+      line-height: 1.5;
+   }
+
+   .about a {
+      color: white;
+      padding: 1vh;
+      width: fit-content;
+       background-color: #55A2A6;
+   }
+
+   .about blockquote {
+      border-left: 10px solid var(--defaultColor);
+      padding: 3%;
+      row-gap: 3vh;
+   }
+
+   .about q {
+      padding-left: 5%;
+      font-style: italic;
+   }
+
+   .about cite {
+      color: var(--defaultColor);
+      text-transform: uppercase;
+      font-weight: 600;
+      font-family: serif;
+   }
 }
