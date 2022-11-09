@@ -60,6 +60,8 @@ a {
         background-color: #111111;
         color: white;
         align-items: center;
+        padding-top: 2vh;
+        padding-right: 2vh;
     }
 
     nav h2 {
@@ -82,6 +84,7 @@ a {
 
     details li {
         display: flex;
+        padding-right: 3vh;
     }
 
     details a {
