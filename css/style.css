@@ -223,8 +223,6 @@ a {
       display: flex;
       flex-direction: column;
       row-gap: 10vh;
-      padding-top: 5vh;
-      padding-bottom: 5vh;
    }
 
    .features a {
@@ -318,6 +316,7 @@ a {
 
    main {
       width: 100%;
+      row-gap: 0;
    }
 
    body{
@@ -402,6 +401,7 @@ a {
 
    .about article aside {
       width: 40%;
+      height: 0.5vh;
    }
 
    .about > section > article {
